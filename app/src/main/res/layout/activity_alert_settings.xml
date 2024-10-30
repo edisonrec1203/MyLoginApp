@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Configuración de Alertas"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Ritmo cardíaco -->
+    <EditText
+        android:id="@+id/heartRateInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ritmo Cardíaco (bpm)"
+        android:inputType="number"
+        android:background="#30ffffff"
+        android:padding="15dp"
+        android:layout_marginBottom="10dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white" />
+
+    <!-- Presión arterial -->
+    <EditText
+        android:id="@+id/bloodPressureInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Presión Arterial (mmHg)"
+        android:inputType="text"
+        android:background="#30ffffff"
+        android:padding="15dp"
+        android:layout_marginBottom="10dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white" />
+
+    <!-- Temperatura -->
+    <EditText
+        android:id="@+id/temperatureInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Temperatura (°C)"
+        android:inputType="numberDecimal"
+        android:background="#30ffffff"
+        android:padding="15dp"
+        android:layout_marginBottom="20dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white" />
+
+    <!-- Botón de Guardar -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar Configuración"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:padding="10dp" />
+</LinearLayout>

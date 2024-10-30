@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menú Principal"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="30dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/createButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear Datos"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:textColor="@color/white"
+        android:layout_marginBottom="15dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/readButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leer Datos"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:textColor="@color/white"
+        android:layout_marginBottom="15dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/updateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actualizar Datos"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:textColor="@color/white"
+        android:layout_marginBottom="15dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/deleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Datos"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:textColor="@color/white" />
+</LinearLayout>
